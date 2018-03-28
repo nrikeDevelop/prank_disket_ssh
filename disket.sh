@@ -4,7 +4,7 @@
 if [ $# -ne 3 ]
 then
 	echo "[user ssh] [pass ssh] [host]"
-	exit 1;
+	exit 2;
 fi
 
 user_ssh=$1
